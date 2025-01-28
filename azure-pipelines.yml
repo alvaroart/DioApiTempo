@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  solution: '/.sln'
+  solution: '**/*.sln'
   buildPlataform: 'Any CPU'
   buildConfiguration: 'Release'
 
@@ -33,4 +33,4 @@ steps:
     containerRegistry: 'acrapidemoart'
     repository: 'api-dio-test'
     command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
+    Dockerfile: '**/*.Dockerfile'
