@@ -10,7 +10,6 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  solution: 'ApitempoDIO.sln'
   buildPlataform: 'Any CPU'
   buildConfiguration: 'Release'
 
