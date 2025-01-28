@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dio-API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9bab3eec89314f954d5bb31d273e90032aff400")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+354a14691de47250188d563f7625c2277e898793")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dio-API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dio-API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
