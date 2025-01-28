@@ -10,6 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
+  solution: '.sln'
   buildPlataform: 'Any CPU'
   buildConfiguration: 'Release'
 
@@ -21,8 +22,6 @@ steps:
    packageType: 'sdk'
    version: '8.x'
 
-- script: dotnet restore $(solution)
-  displayName: 'Restore Solution'
 
 - script: dotnet build $(solution) --configuration $(buildConfiguration)
   displayName: 'Build Solution'
