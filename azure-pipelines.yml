@@ -33,4 +33,4 @@ steps:
     containerRegistry: 'acrapidemoart'
     repository: 'api-dio-test'
     command: 'buildAndPush'
-    Dockerfile: '**/*.Dockerfile'
+    Dockerfile: '**/Dockerfile'
