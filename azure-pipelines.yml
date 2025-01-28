@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  solution: '.sln'
+  solution: 'DIO-Api/.sln'
   buildPlataform: 'Any CPU'
   buildConfiguration: 'Release'
 
