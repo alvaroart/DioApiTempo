@@ -15,7 +15,7 @@ WORKDIR /src
 COPY ["Dio-API.csproj", "."]
 RUN dotnet restore "./Dio-API.csproj"
 COPY . .
-WORKDIR "/src/."
+WORKDIR "/src"
 RUN dotnet build "./Dio-API.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # Esta fase é usada para publicar o projeto de serviço a ser copiado para a fase final
